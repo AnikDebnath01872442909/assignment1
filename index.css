@@ -1,0 +1,202 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Banner*/
+.banner-div{
+    width: 100%;
+    background-image:url('images/banner/banner1.png');
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.banner-heading{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 65px;
+    text-align: right;
+}
+.heading-div{
+    margin: 215px 230px 364px 845px;
+    /*top right bottom left*/
+    position:absolute;
+    
+    
+}
+.banner-bg{
+    width: 100%;
+}
+.banner-description{
+    margin: 460px 235px 267px 845px;
+    /*top right bottom left*/
+    position:absolute;
+    font-family:'Work sans';
+    text-align: right;
+
+}
+.banner-btn{
+    background-color: #F15B22;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    font-family:'Work sans';
+    margin: 578px 225px 166px 1210px;
+    position:absolute;
+    font-weight:600;
+}
+/*A Failure's Section*/
+
+.failure-container{
+    display: flex;
+}
+.failure-img{
+    width: 569px;
+    height: 723.3px;
+    margin-top: 115px ;
+    margin-left: 150px;
+}
+.failure-motivation{
+    margin:230px 300px 322px 300px;
+}
+.failure-title{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:bold;
+    font-size: 40px;
+}
+.failure-description{
+    margin-top: 10px;
+    font-family: 'Work Sans';
+
+}
+.failure-list{
+    list-style: none;
+    margin-top: 10px;
+    font-family: 'Work Sans';
+}
+.tick-mark{
+    color:  #16D887;
+}
+.my-plans{
+    font-family: 'Work Sans';
+    font-weight:bold;
+    font-size: 30px;
+    text-align: center;
+}
+.plan-list{
+    display: flex;
+    font-family: 'Work Sans';
+    font-weight:bold;
+    justify-content: center;
+}
+.div1{
+    width: 180px;
+    height: 200px;
+    padding: 10px 10px 20px 10px;
+    background-color: white;
+    box-shadow: 5px 10px 10px #aaaaaa;
+    justify-content: center;
+    margin: 25px;
+    text-align: center;
+}
+.to-do{
+    color:#737272; ;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+  }
+  .call-img{
+    position: absolute;
+    width: 1140px;
+    height: 400px;
+    left: 230px;
+    top: 2050px;
+    border-radius: 8px;
+    background-image: 
+    url("images/watch.png"),url("images/gradient3.png");
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+}
+.call-img-title{
+    font-family: 'Work Sans';
+    font-size: 40px;
+    font-weight:700;
+    color:#ffff;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+.call-img-button{
+    background-color: white;
+    border: none;
+    color: #F15B22 ;
+    padding: 12px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family:'Work sans';
+    margin-left: 80px;
+    font-weight: 300px;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.footer{
+    background-color: black;
+    color: #ffff;
+    margin-top: 450px;
+    font-family:'Work sans';
+}
+.footer-info{
+    font-family:'Work sans';
+    font-weight: 200;
+    font-size: 16px;
+    width: 38%;
+    padding-top:50px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+   
+}
+.footer-icon{
+    display: flex;
+}
+.footer-icon-img{
+    margin-left: 10px;
+    
+}
+.submit{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family:'Work sans';
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 400px;
+    
+    
+ 
+  
+
+}
+.subscribe-btn{
+    background-color: white;
+    border: none;
+    color: #F15B22 ;
+    padding: 12px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family:'Work sans';
+    font-weight: 400;
+    margin-left: 810px;
+   
+
+    
+}
